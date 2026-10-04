@@ -43,7 +43,8 @@ knn_project/
 ├── app.py                        # Decoupled inference engine module
 ├── streamlit_app.py              # Streamlit Web Dashboard UI
 ├── requirements.txt              # Project dependencies & environment specs
-└── README.md                     # Project documentation
+└── README.md                     # Project documentation  ```
+
 ## Local Installation & Setup
 #### 1. Clone the Repository:
 git clone [https://github.com/Diraribnsalah/knn-breast-cancer-diagnostic.git](https://github.com/Diraribnsalah/knn-breast-cancer-diagnostic.git)
