@@ -26,6 +26,17 @@ An enterprise-ready, modular Machine Learning system for early breast cancer dia
 
 ---
 
+## Local Installation & Setup
+#### 1. Clone the Repository:
+git clone [https://github.com/Diraribnsalah/knn-breast-cancer-diagnostic.git](https://github.com/Diraribnsalah/knn-breast-cancer-diagnostic.git)
+cd knn-breast-cancer-diagnostic
+#### 2. Set Up Virtual Environment & Dependencies:
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+## Run Web Dashboard
+streamlit run streamlit_app.py
+
 ##  Repository Structure
 
 ```text
@@ -44,14 +55,3 @@ knn_project/
 ├── streamlit_app.py              # Streamlit Web Dashboard UI
 ├── requirements.txt              # Project dependencies & environment specs
 └── README.md                     # Project documentation  ```
-
-## Local Installation & Setup
-#### 1. Clone the Repository:
-git clone [https://github.com/Diraribnsalah/knn-breast-cancer-diagnostic.git](https://github.com/Diraribnsalah/knn-breast-cancer-diagnostic.git)
-cd knn-breast-cancer-diagnostic
-#### 2. Set Up Virtual Environment & Dependencies:
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-## Run Web Dashboard
-streamlit run streamlit_app.py
