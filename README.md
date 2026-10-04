@@ -22,8 +22,8 @@ The deployed application provides an interactive interface for real-time probabi
 
 | Metric | Result |
 |---|---:|
-| **Test Accuracy** | **98.29%** |
-| **Train Accuracy** | **97.02%** |
+| **Test Accuracy** | **98.25%** |
+| **Train Accuracy** | **97.80%** |
 | **Cross-Validation** | **5-Fold Cross-Validation** |
 | **Hyperparameter Optimization** | **GridSearchCV (`n_jobs=-1`)** |
 | **Final Model** | **Optimized K-Nearest Neighbors (K-NN)** |
@@ -166,9 +166,9 @@ The trained artifacts are stored with **Joblib** so that the Streamlit applicati
 
 The notebooks document the project from experimentation to deployment-oriented inference:
 
-1. **`01_data_preprocessing.ipynb`** — data loading, inspection, preprocessing, and preparation.
-2. **`02_model_training_tuning.ipynb`** — K-NN training and systematic hyperparameter optimization.
-3. **`03_model_evaluation_inference.ipynb`** — final evaluation, inference workflow, and deployment preparation.
+1. **`_data_preprocessing.ipynb`** — data loading, inspection, preprocessing, and preparation.
+2. **`_model_training_tuning.ipynb`** — K-NN training and systematic hyperparameter optimization.
+3. **`_model_evaluation_inference.ipynb`** — final evaluation, inference workflow, and deployment preparation.
 
 ##  Tech Stack
 
